@@ -10,7 +10,7 @@ body, html {
 
 .container, h1 {
   width: 80%;
-  max-width: 600px;
+  max-width: 800px;
   min-width: 400px;
   padding: 10px;
   margin: 10px auto;
@@ -38,6 +38,7 @@ img:hover {
   border: 1px solid #aaaa00;
   box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00;
   background-color: #dddd22;
+  padding-left: -300px
 }
 
 .dubious {
@@ -46,6 +47,42 @@ img:hover {
   background-color: #dd4444;
 }
 
+
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
+.column{
+ display: inline-block;
+ width: 30%;
+
+}
+
+.big-baraz{
+  width: 480px;
+  height: 510px
+  
+}
 
 /* create your tile classes! we recommend .small .med .large */
+.small {
+  width: 100%
+}
+.med {
+width: 200%
+
+}
+.large{
+  width: 300%
+}
+
+.third-img{
+  margin-left: -150px
+  
+}
+
+
+.middle-images{
+padding-left: -400rem
+  
+}
+
+
+
